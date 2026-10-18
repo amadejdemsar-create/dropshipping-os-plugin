@@ -14,8 +14,8 @@ claude plugin marketplace add amadejdemsar-create/dropshipping-os-plugin
 claude plugin install dropshipping-os@dropshipping-os
 ```
 
-Claude Code asks for the token and the address (keep the default address). Change them later with `/plugin configure dropshipping-os@dropshipping-os`.
-3. Restart Claude Code and ask: "List my Dropshipping OS products."
+3. Start Claude Code and run `/plugin configure dropshipping-os@dropshipping-os`. Paste the token (stored in your system keychain) and keep the default address.
+4. Restart Claude Code and ask: "List my Dropshipping OS products."
 
 ## Without the plugin
 
