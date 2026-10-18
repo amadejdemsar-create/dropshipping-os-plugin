@@ -1,0 +1,12 @@
+{
+  "name": "dropshipping-os",
+  "description": "Claude Code plugin for the Dropshipping OS team",
+  "owner": { "name": "Amadej Demsar", "url": "https://github.com/amadejdemsar-create" },
+  "plugins": [
+    {
+      "name": "dropshipping-os",
+      "source": "./plugins/dropshipping-os",
+      "description": "Dropshipping OS over MCP, the team skills and the video analyst agent."
+    }
+  ]
+}

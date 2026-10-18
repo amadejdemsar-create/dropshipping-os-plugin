@@ -1,0 +1,32 @@
+{
+  "name": "dropshipping-os",
+  "description": "The Dropshipping OS team in Claude Code: the OS itself over MCP (products, tasks, course, files), the team skills (visualize, web research, prompt writer, ad copywriter, premortem, grill me, avatar walkthrough, video watch) and the video analyst agent.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Amadej Demsar",
+    "url": "https://github.com/amadejdemsar-create"
+  },
+  "repository": "https://github.com/amadejdemsar-create/dropshipping-os-plugin",
+  "keywords": [
+    "dropshipping",
+    "team",
+    "mcp",
+    "skills"
+  ],
+  "userConfig": {
+    "dsos_token": {
+      "type": "string",
+      "title": "Dropshipping OS token",
+      "description": "Your personal token from Dropshipping OS › AI and skills › New token (client Claude Code). It acts as you, with your permissions.",
+      "sensitive": true,
+      "required": true
+    },
+    "dsos_url": {
+      "type": "string",
+      "title": "Dropshipping OS address",
+      "description": "Leave as it is unless Amadej gives you another address.",
+      "default": "https://dropshipping.nativeai.agency",
+      "required": false
+    }
+  }
+}

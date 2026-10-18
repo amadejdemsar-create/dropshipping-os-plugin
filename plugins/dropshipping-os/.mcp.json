@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dropshipping-os": {
+      "type": "http",
+      "url": "${user_config.dsos_url}/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.dsos_token}"
+      }
+    }
+  }
+}
