@@ -66,6 +66,7 @@ def download_url(url: str, out_dir: Path) -> dict:
 
     cmd = [
         "yt-dlp",
+        "--ignore-config",
         "-N", "8",
         "-f", "bv*[height<=720]+ba/b[height<=720]/bv+ba/b",
         "--merge-output-format", "mp4",
@@ -78,6 +79,7 @@ def download_url(url: str, out_dir: Path) -> dict:
         "--no-playlist",
         "--ignore-errors",
         "-o", output_template,
+        "--",
         url,
     ]
 
