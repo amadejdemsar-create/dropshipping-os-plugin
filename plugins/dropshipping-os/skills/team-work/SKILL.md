@@ -1,6 +1,6 @@
 ---
 name: team-work
-description: Tasks and time across NativeAI and Dropshipping. Use when someone asks for their tasks or the team's ("show my tasks across NativeAI and dropshipping", "what is Maks working on"), wants to create, assign, reschedule, comment on or archive a task, or logs time ("log 45 minutes on this task"). Works with NativeAI OS or Dropshipping OS connected; both share the same tools.
+description: Tasks and time across NativeAI and Dropshipping. Use when someone asks for their tasks or the team's ("show my tasks across NativeAI and dropshipping", "what is a teammate working on"), wants to create, assign, reschedule, comment on or archive a task, or logs time ("log 45 minutes on this task"). Works with NativeAI OS or Dropshipping OS connected; both share the same tools.
 ---
 
 # Team work: tasks and time
