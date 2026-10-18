@@ -7,6 +7,8 @@ description: Shared team expenses and repayments across NativeAI and Dropshippin
 
 The tools come from NativeAI OS or Dropshipping OS (the same names in both): `workspaces`, `expenses`, `expense_get`, `expense_create`, `expense_update`, `expense_void`, `balances`, `settlements`, `settlement_record`, `settle_across`, `settlement_void`. They act as the signed-in person; every change is recorded as "<person> via <your tool>". Nothing here moves money: a repayment is a record of a payment that already happened.
 
+If a tool named here is not in your tool list, call find_tools with its name, then call_tool (or call_read_tool for reads) with the arguments it returns.
+
 ## Rules that never bend
 
 1. **Never guess money facts.** Before `expense_create` you need, stated or unambiguous from the conversation: the business, who paid (whose own money), the amount, the currency, who shares it, and how (equal, percent, exact amounts, or shares). Ask for whatever is missing, all in one short question. "The four of us" is resolved only if that business has exactly four active members and the person is one of them; otherwise ask who.
