@@ -1,6 +1,6 @@
 {
   "name": "dropshipping-os",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Dropshipping OS (dropshipping.nativeai.agency) signed in as you, with the team skills: visualize, web-research, prompt-writer, ad-copywriter, premortem, grill-me, avatar-walkthrough, team-work, team-expenses and video-watch.",
   "author": {
     "name": "Amadej Demšar",
@@ -9,7 +9,7 @@
   "homepage": "https://dropshipping.nativeai.agency",
   "repository": "https://github.com/amadejdemsar-create/dropshipping-os-plugin",
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": "./.codex-mcp.json",
   "interface": {
     "displayName": "Dropshipping OS",
     "shortDescription": "Products, tasks, the course and the team skills from Dropshipping OS",
