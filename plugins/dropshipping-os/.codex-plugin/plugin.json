@@ -1,0 +1,29 @@
+{
+  "name": "dropshipping-os",
+  "version": "1.2.0",
+  "description": "Dropshipping OS (dropshipping.nativeai.agency) signed in as you, with the team skills: visualize, web-research, prompt-writer, ad-copywriter, premortem, grill-me, avatar-walkthrough, team-work, team-expenses and video-watch.",
+  "author": {
+    "name": "Amadej Demšar",
+    "url": "https://github.com/amadejdemsar-create"
+  },
+  "homepage": "https://dropshipping.nativeai.agency",
+  "repository": "https://github.com/amadejdemsar-create/dropshipping-os-plugin",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Dropshipping OS",
+    "shortDescription": "Products, tasks, the course and the team skills from Dropshipping OS",
+    "longDescription": "Connects to Dropshipping OS as you (sign in with your OS account). Every change is recorded as you via Codex. Reviewing creatives, publishing ads, ordering goods, changing spend and creating or revoking access tokens stay with a person in the OS.",
+    "developerName": "Amadej Demšar",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://dropshipping.nativeai.agency",
+    "defaultPrompt": [
+      "Use Dropshipping OS to list my products.",
+      "Use Dropshipping OS to show my tasks across NativeAI and Dropshipping."
+    ]
+  }
+}
