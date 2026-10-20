@@ -1,7 +1,7 @@
 {
   "name": "dropshipping-os",
   "description": "The Dropshipping OS team in Claude Code: the OS itself over MCP (products, tasks, course, files), signed in with your OS account, the team skills (visualize, web research, prompt writer, ad copywriter, premortem, grill me, avatar walkthrough, video watch) and the video analyst agent.",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": {
     "name": "Amadej Demsar",
     "url": "https://github.com/amadejdemsar-create"
