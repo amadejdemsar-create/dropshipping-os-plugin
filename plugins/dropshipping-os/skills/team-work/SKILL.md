@@ -7,7 +7,7 @@ description: Tasks and time across NativeAI and Dropshipping. Use when someone a
 
 The tools come from NativeAI OS or Dropshipping OS (the same names in both): `workspaces`, `team_tasks`, `team_task_get`, `team_task_create`, `team_task_update`, `team_task_comment`, `team_time_log`, `team_time_void`. They act as the signed-in person and record every change as "<person> via <your tool>". If a call says the person must sign in, tell them how (Claude Code: `/mcp`, pick the OS and sign in; Codex: `codex mcp login <server>`) and stop.
 
-If a tool named here is not in your tool list, call find_tools with its name, then call_tool (or call_read_tool for reads) with the arguments it returns.
+If a tool named here is not in your tool list, call find_tools with its name, then run it with the runner named in run_with (call_read_tool, call_tool or call_careful_tool) and the arguments it returns. Ask the person before every call_careful_tool.
 
 ## Rules that never bend
 
