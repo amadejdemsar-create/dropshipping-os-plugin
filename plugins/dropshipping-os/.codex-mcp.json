@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dropshipping-os": {
+      "type": "http",
+      "url": "https://dropshipping.nativeai.agency/api/mcp",
+      "http_headers": {
+        "x-mcp-tools": "all"
+      }
+    }
+  }
+}

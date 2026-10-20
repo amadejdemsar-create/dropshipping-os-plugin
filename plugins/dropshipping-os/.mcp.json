@@ -2,9 +2,9 @@
   "mcpServers": {
     "dropshipping-os": {
       "type": "http",
-      "url": "${user_config.dsos_url}/api/mcp",
+      "url": "https://dropshipping.nativeai.agency/api/mcp",
       "headers": {
-        "Authorization": "Bearer ${user_config.dsos_token}"
+        "x-mcp-tools": "all"
       }
     }
   }
